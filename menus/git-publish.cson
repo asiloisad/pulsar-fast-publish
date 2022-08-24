@@ -1,0 +1,11 @@
+'context-menu':
+  '.tree-view .directory': [
+    {
+      'label': 'Git Publish',
+      'submenu': [
+        {'label':'Publish Package as Major', 'command': 'git-publish:major'},
+        {'label':'Publish Package as Minor', 'command': 'git-publish:minor'},
+        {'label':'Publish Package as Patch', 'command': 'git-publish:patch'},
+      ]
+    }
+  ]

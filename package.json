@@ -1,0 +1,20 @@
+{
+  "description": "Publish your package at Github",
+  "keywords": [
+    "publish"
+  ],
+  "main": "./lib/main",
+  "name": "git-publish",
+  "homepage": "https://github.com/bacadra/atom-git-publish",
+  "url": "https://github.com/bacadra/atom-git-publish",
+  "repository": "https://github.com/bacadra/atom-git-publish",
+  "version": "0.0.0",
+  "consumedServices": {
+    "tree-view": {
+      "versions": {
+        "^1.0.0": "consumeTreeView"
+      }
+    }
+  },
+  "license": "GPL-3.0-or-later"
+}
