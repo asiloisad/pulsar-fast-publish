@@ -3,9 +3,9 @@
     {
       'label': 'Git Publish',
       'submenu': [
-        {'label':'Publish Package as Major', 'command': 'git-publish:major'},
-        {'label':'Publish Package as Minor', 'command': 'git-publish:minor'},
-        {'label':'Publish Package as Patch', 'command': 'git-publish:patch'},
+        {'label':'as Major', 'command': 'git-publish:major'},
+        {'label':'as Minor', 'command': 'git-publish:minor'},
+        {'label':'as Patch', 'command': 'git-publish:patch'},
       ]
     }
   ]
