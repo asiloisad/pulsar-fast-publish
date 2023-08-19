@@ -3,11 +3,14 @@
   "keywords": [
     "publish"
   ],
+  "engines": {
+    "atom": ">=1.100.0 <2.0.0"
+  },  
   "main": "./lib/main",
   "name": "git-publish",
-  "homepage": "https://github.com/bacadra/atom-git-publish",
-  "url": "https://github.com/bacadra/atom-git-publish",
-  "repository": "https://github.com/bacadra/atom-git-publish",
+  "homepage": "https://github.com/bacadra/pulsar-git-publish",
+  "url": "https://github.com/bacadra/pulsar-git-publish",
+  "repository": "https://github.com/bacadra/pulsar-git-publish",
   "version": "0.0.0",
   "consumedServices": {
     "tree-view": {
