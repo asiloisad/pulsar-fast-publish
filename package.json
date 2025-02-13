@@ -1,24 +1,17 @@
 {
+  "name": "git-publish",
   "description": "Publish package to Github without PPM",
+  "repository": "https://github.com/bacadra/pulsar-git-publish",
   "keywords": [
-    "publish"
+    "publish",
+    "github"
   ],
+  "version": "1.0.3",
+  "license": "MIT",
   "engines": {
     "atom": ">=1.100.0 <2.0.0"
   },
   "main": "./lib/main",
-  "name": "git-publish",
-  "homepage": "https://github.com/bacadra/pulsar-git-publish",
-  "url": "https://github.com/bacadra/pulsar-git-publish",
-  "repository": "https://github.com/bacadra/pulsar-git-publish",
-  "version": "1.0.3",
-  "consumedServices": {
-    "tree-view": {
-      "versions": {
-        "^1.0.0": "consumeTreeView"
-      }
-    }
-  },
   "activationCommands": {
     ".tree-view .directory": [
       "git-publish:major",
@@ -26,5 +19,11 @@
       "git-publish:patch"
     ]
   },
-  "license": "MIT"
+  "consumedServices": {
+    "tree-view": {
+      "versions": {
+        "^1.0.0": "consumeTreeView"
+      }
+    }
+  }
 }
