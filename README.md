@@ -4,7 +4,7 @@ Publish package to Github without PPM. Select proper directory in tree-view and 
 
 ## Installation
 
-To install `regex-aligner` run `ppm install bacadra/pulsar-regex-aligner` to install a package directly from the Github repository.
+To install `regex-aligner` run `ppm install asiloisad/pulsar-regex-aligner` to install a package directly from the Github repository.
 
 # Commands
 

@@ -1,7 +1,7 @@
 {
   "name": "git-publish",
   "description": "Publish package to Github without PPM",
-  "repository": "https://github.com/bacadra/pulsar-git-publish",
+  "repository": "https://github.com/asiloisad/pulsar-git-publish",
   "keywords": [
     "publish",
     "github"
