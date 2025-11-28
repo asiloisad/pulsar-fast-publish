@@ -1,0 +1,25 @@
+'context-menu':
+  '.tree-view .directory': [
+    {
+      'label': 'Package Publish',
+      'submenu': [
+        {'label':'as Major', 'command': 'package-publish:major'},
+        {'label':'as Minor', 'command': 'package-publish:minor'},
+        {'label':'as Patch', 'command': 'package-publish:patch'},
+        {'label':'as Major (if changed)', 'command': 'package-publish:major-if'},
+        {'label':'as Minor (if changed)', 'command': 'package-publish:minor-if'},
+        {'label':'as Patch (if changed)', 'command': 'package-publish:patch-if'},
+      ]
+    }
+    {
+      'label': 'PPM Publish',
+      'submenu': [
+        {'label':'as Major', 'command': 'ppm-publish:major'},
+        {'label':'as Minor', 'command': 'ppm-publish:minor'},
+        {'label':'as Patch', 'command': 'ppm-publish:patch'},
+        {'label':'as Major (if changed)', 'command': 'ppm-publish:major-if'},
+        {'label':'as Minor (if changed)', 'command': 'ppm-publish:minor-if'},
+        {'label':'as Patch (if changed)', 'command': 'ppm-publish:patch-if'},
+      ]
+    }
+  ]

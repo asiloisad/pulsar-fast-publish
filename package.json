@@ -1,7 +1,7 @@
 {
-  "name": "git-publish",
+  "name": "package-publish",
   "description": "Publish package to Github without PPM",
-  "repository": "https://github.com/asiloisad/pulsar-git-publish",
+  "repository": "https://github.com/asiloisad/pulsar-package-publish",
   "keywords": [
     "publish",
     "github"
@@ -14,9 +14,32 @@
   "main": "./lib/main",
   "activationCommands": {
     ".tree-view .directory": [
-      "git-publish:major",
-      "git-publish:minor",
-      "git-publish:patch"
+      "package-publish:major",
+      "package-publish:minor",
+      "package-publish:patch",
+      "package-publish:major-if",
+      "package-publish:minor-if",
+      "package-publish:patch-if",
+      "ppm-publish:major",
+      "ppm-publish:minor",
+      "ppm-publish:patch",
+      "ppm-publish:major-if",
+      "ppm-publish:minor-if",
+      "ppm-publish:patch-if"
+    ],
+    "atom-text-editor:not([mini])": [
+      "package-publish:major",
+      "package-publish:minor",
+      "package-publish:patch",
+      "package-publish:major-if",
+      "package-publish:minor-if",
+      "package-publish:patch-if",
+      "ppm-publish:major",
+      "ppm-publish:minor",
+      "ppm-publish:patch",
+      "ppm-publish:major-if",
+      "ppm-publish:minor-if",
+      "ppm-publish:patch-if"
     ]
   },
   "consumedServices": {
