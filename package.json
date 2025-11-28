@@ -12,41 +12,14 @@
     "atom": ">=1.100.0 <2.0.0"
   },
   "main": "./lib/main",
-  "activationCommands": {
-    ".tree-view .directory": [
-      "package-publish:git-major",
-      "package-publish:git-minor",
-      "package-publish:git-patch",
-      "package-publish:git-major-if",
-      "package-publish:git-minor-if",
-      "package-publish:git-patch-if",
-      "package-publish:ppm-major",
-      "package-publish:ppm-minor",
-      "package-publish:ppm-patch",
-      "package-publish:ppm-major-if",
-      "package-publish:ppm-minor-if",
-      "package-publish:ppm-patch-if"
-    ],
-    "atom-text-editor:not([mini])": [
-      "package-publish:git-major",
-      "package-publish:git-minor",
-      "package-publish:git-patch",
-      "package-publish:git-major-if",
-      "package-publish:git-minor-if",
-      "package-publish:git-patch-if",
-      "package-publish:ppm-major",
-      "package-publish:ppm-minor",
-      "package-publish:ppm-patch",
-      "package-publish:ppm-major-if",
-      "package-publish:ppm-minor-if",
-      "package-publish:ppm-patch-if"
-    ]
-  },
   "consumedServices": {
     "tree-view": {
       "versions": {
         "^1.0.0": "consumeTreeView"
       }
     }
+  },
+  "dependencies": {
+    "atom-select-list": "^0.8.1"
   }
 }
