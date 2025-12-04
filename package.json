@@ -18,8 +18,5 @@
         "^1.0.0": "consumeTreeView"
       }
     }
-  },
-  "dependencies": {
-    "atom-select-list": "^0.8.1"
   }
 }
