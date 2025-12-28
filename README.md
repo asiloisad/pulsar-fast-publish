@@ -28,7 +28,8 @@ Commands available in `.tree-view .directory > .list-item`:
 - `fast-publish:ppm-patch`: publish a patch update via PPM,
 - `fast-publish:ppm-major-if`: publish a major update via PPM (if changed since last tag),
 - `fast-publish:ppm-minor-if`: publish a minor update via PPM (if changed since last tag),
-- `fast-publish:ppm-patch-if`: publish a patch update via PPM (if changed since last tag).
+- `fast-publish:ppm-patch-if`: publish a patch update via PPM (if changed since last tag),
+- `fast-publish:ppm-tag`: publish the latest git tag to PPM.
 
 ## Contributing
 
