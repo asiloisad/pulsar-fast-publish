@@ -1,6 +1,13 @@
 # package-publish
 
-Publish Pulsar packages via Git tags or PPM. Select a directory in tree-view and run a command.
+Publish Pulsar packages via Git tags or PPM. Bump version, commit, tag, and push with a single command.
+
+## Features
+
+- **Git publish**: Bump version, commit, tag, and push to origin.
+- **PPM publish**: Publish using Pulsar Package Manager.
+- **Conditional publish**: Only publish if changes exist since last tag.
+- **Context menu**: Available from tree-view directories.
 
 ## Installation
 
@@ -8,31 +15,20 @@ To install `package-publish` run `ppm install asiloisad/pulsar-package-publish` 
 
 ## Commands
 
-Commands are available in `.tree-view .directory` and `atom-text-editor` scopes.
+Commands available in `.tree-view .directory` and `atom-text-editor`:
 
-### Git Publish
-
-Publish by bumping version in `package.json`, committing, tagging, and pushing to origin:
-
-- `package-publish:git-major`: publish a major update
-- `package-publish:git-minor`: publish a minor update
-- `package-publish:git-patch`: publish a patch update
-- `package-publish:git-major-if`: publish a major update (if changed since last tag)
-- `package-publish:git-minor-if`: publish a minor update (if changed since last tag)
-- `package-publish:git-patch-if`: publish a patch update (if changed since last tag)
-
-### PPM Publish
-
-Publish using Pulsar Package Manager (`ppm publish`):
-
-- `package-publish:ppm-major`: publish a major update
-- `package-publish:ppm-minor`: publish a minor update
-- `package-publish:ppm-patch`: publish a patch update
-- `package-publish:ppm-major-if`: publish a major update (if changed since last tag)
-- `package-publish:ppm-minor-if`: publish a minor update (if changed since last tag)
-- `package-publish:ppm-patch-if`: publish a patch update (if changed since last tag)
-
-All commands are available from the context-menu of tree-view directories.
+- `package-publish:git-major`: publish a major update via Git,
+- `package-publish:git-minor`: publish a minor update via Git,
+- `package-publish:git-patch`: publish a patch update via Git,
+- `package-publish:git-major-if`: publish a major update via Git (if changed since last tag),
+- `package-publish:git-minor-if`: publish a minor update via Git (if changed since last tag),
+- `package-publish:git-patch-if`: publish a patch update via Git (if changed since last tag),
+- `package-publish:ppm-major`: publish a major update via PPM,
+- `package-publish:ppm-minor`: publish a minor update via PPM,
+- `package-publish:ppm-patch`: publish a patch update via PPM,
+- `package-publish:ppm-major-if`: publish a major update via PPM (if changed since last tag),
+- `package-publish:ppm-minor-if`: publish a minor update via PPM (if changed since last tag),
+- `package-publish:ppm-patch-if`: publish a patch update via PPM (if changed since last tag).
 
 ## Contributing
 
