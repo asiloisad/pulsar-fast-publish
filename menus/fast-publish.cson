@@ -14,6 +14,7 @@
         {'label':'as Major', 'command': 'fast-publish:ppm-major'},
         {'label':'as Minor', 'command': 'fast-publish:ppm-minor'},
         {'label':'as Patch', 'command': 'fast-publish:ppm-patch'},
+        {'label':'last Tag', 'command': 'fast-publish:ppm-tag'  },
       ]
     }
   ]
