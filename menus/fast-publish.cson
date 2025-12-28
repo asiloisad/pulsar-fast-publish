@@ -1,0 +1,19 @@
+'context-menu':
+  '.tree-view .directory > .list-item': [
+    {
+      'label': 'Git Publish',
+      'submenu': [
+        {'label':'as Major', 'command': 'fast-publish:git-major'},
+        {'label':'as Minor', 'command': 'fast-publish:git-minor'},
+        {'label':'as Patch', 'command': 'fast-publish:git-patch'},
+      ]
+    },
+    {
+      'label': 'PPM Publish',
+      'submenu': [
+        {'label':'as Major', 'command': 'fast-publish:ppm-major'},
+        {'label':'as Minor', 'command': 'fast-publish:ppm-minor'},
+        {'label':'as Patch', 'command': 'fast-publish:ppm-patch'},
+      ]
+    }
+  ]

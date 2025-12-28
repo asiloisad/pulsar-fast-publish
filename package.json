@@ -1,7 +1,7 @@
 {
-  "name": "package-publish",
+  "name": "fast-publish",
   "description": "Publish package to Github without PPM",
-  "repository": "https://github.com/asiloisad/pulsar-package-publish",
+  "repository": "https://github.com/asiloisad/pulsar-fast-publish",
   "keywords": [
     "publish",
     "github"
