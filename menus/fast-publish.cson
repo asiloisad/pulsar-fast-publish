@@ -17,4 +17,5 @@
         {'label':'last Tag', 'command': 'fast-publish:ppm-tag'  },
       ]
     }
+    { "type": "separator" }
   ]
