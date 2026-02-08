@@ -11,7 +11,7 @@ Publish Pulsar packages via Git tags or PPM. Bump version, commit, tag, and push
 
 ## Installation
 
-To install `fast-publish` run `ppm install asiloisad/pulsar-fast-publish` to install a package directly from the GitHub repository.
+To install `fast-publish` search for [fast-publish](https://web.pulsar-edit.dev/packages/fast-publish) in the Install pane of the Pulsar settings or run `ppm install fast-publish`. Alternatively, you can run `ppm install asiloisad/pulsar-fast-publish` to install a package directly from the GitHub repository.
 
 ## Commands
 
